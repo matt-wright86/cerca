@@ -163,6 +163,9 @@
       .float-left{
         margin-bottom: 10px;
         float: left;
+        img{
+          width: 20%;
+        }
       }
       .text-middle{
         text-align: center;
@@ -170,9 +173,6 @@
         padding: 5px 0;
         padding-right: 100px;
         padding-bottom: 10px;
-        img{
-          width: 20%;
-        }
       }
       .float-right{
         margin-top: -47px;
