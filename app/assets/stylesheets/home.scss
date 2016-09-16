@@ -1,0 +1,145 @@
+.col-md-3, .col-md-6, .col-md-9, .col-md-4, .col-md-8{
+  padding-left: 0 !important;
+  padding-right: 15px !important;
+  &:after{
+    display: block;
+    content: '';
+    clear: both;
+  }
+}
+
+@media (min-width: 2500px) {
+  .row{
+  }
+  .boxes, .boxes2, .boxes3{
+    height: 370px;
+    .box1{
+      .box1-content{
+        margin: 60px 100px 0 100px;
+      }
+    }
+    .row3box4{
+      .box-content{
+        margin: 60px 100px 0 100px;
+      }
+    }
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 2000px) {
+  .boxes, .boxes2, .boxes3{
+    height: 190px;
+    .row3box4{
+      .box-content{
+        margin: 0 0 0 0;
+        h1{
+          font-size: 20px;
+        }
+      }
+    }
+    .box1{
+      .box1-content{
+        margin: 0 0px 0px 27px;
+        h1{
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}
+
+.row{
+  .boxes{
+    padding-top: 15px;
+    // max-height: 190px;
+    overflow: hidden;
+
+    .box1{
+      // max-width: 301px;
+      height:100%;
+      padding: 30px 0 30px 0;
+      background-color: #c4d72d;
+      color: white;
+      text-align: center;
+
+      .box1-content {
+        .nounderline{
+          font-weight: bold;
+          color: white;
+          text-decoration: none
+        }
+        h1{
+          font-weight: 300;
+        }
+      }
+    }
+
+    .box2{
+      // max-width: 301px;
+      // background-image: url('/assets/girls in grass.png');
+      // padding: 20px 0 20px 0;
+      color: white;
+      text-align: center;
+    }
+
+    .box3{
+      // max-width: 301px;
+      // background-color: #478cca;
+    }
+    .box4{
+      // overflow: hidden;
+      height:100%;
+      padding:100px;
+      background-color: #478cca;
+    }
+    .r2-box2{
+      img{
+        display: block;
+        margin: auto;
+        margin-top: 3%;
+        width: 75%;
+      }
+    }
+
+    img{
+      max-width: 100%;
+      height: auto;
+    }
+  }
+}
+
+.boxes2{
+  padding-top: 15px;
+  // max-height: 190px;
+  // overflow: hidden;
+  .rfix{
+    padding-left: 15px;
+  }
+  .r2-box1{
+  }
+  .r2-box3{
+    height:100%;
+  }
+  img{
+    max-width: 100%;
+  }
+}
+.boxes3{
+  .row3box4{
+    height:100%;
+    padding: 30px 0 30px 0;
+    background-color: #6d6059;
+    color: white;
+    text-align: center;
+    h1{
+      font-weight: 300;
+    }
+    .box-content{
+      .nounderline{
+        font-weight: bold;
+        color: white;
+        text-decoration: none
+      }
+    }
+  }
+}
