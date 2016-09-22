@@ -1,6 +1,6 @@
-.col-md-3, .col-md-6, .col-md-9, .col-md-4, .col-md-8{
-  padding-left: 0 !important;
-  padding-right: 15px !important;
+.col-md-3, .col-md-6, .col-md-9, .col-md-4, .col-md-8, .col-lg-3, .col-lg-6, .col-lg-9, .col-lg-4, .col-lg-8{
+  padding-left: 7px !important;
+  padding-right: 7px !important;
   &:after{
     display: block;
     content: '';
@@ -8,45 +8,43 @@
   }
 }
 
-@media (min-width: 2500px) {
-  .row{
-  }
-  .boxes, .boxes2, .boxes3{
-    height: 370px;
-    .box1{
-      .box1-content{
-        margin: 60px 100px 0 100px;
-      }
-    }
-    .row3box4{
-      .box-content{
-        margin: 60px 100px 0 100px;
-      }
-    }
-  }
-}
+// @media (min-width: 2500px) {
+//   .row{
+//   }
+//   .boxes, .boxes2, .boxes3{
+//     .box1{
+//       .box1-content{
+//         margin: 60px 100px 0 100px;
+//       }
+//     }
+//     .row3box4{
+//       .box-content{
+//         margin: 60px 100px 0 100px;
+//       }
+//     }
+//   }
+// }
 
-@media (min-width: 1200px) and (max-width: 2000px) {
-  .boxes, .boxes2, .boxes3{
-    height: 190px;
-    .row3box4{
-      .box-content{
-        margin: 0 0 0 0;
-        h1{
-          font-size: 20px;
-        }
-      }
-    }
-    .box1{
-      .box1-content{
-        margin: 0 0px 0px 27px;
-        h1{
-          font-size: 20px;
-        }
-      }
-    }
-  }
-}
+// @media (min-width: 1200px) and (max-width: 2000px) {
+//   .boxes, .boxes2, .boxes3{
+//     .row3box4{
+//       .box-content{
+//         margin: 0 0 0 0;
+//         h1{
+//           font-size: 20px;
+//         }
+//       }
+//     }
+//     .box1{
+//       .box1-content{
+//         margin: 0 0px 0px 27px;
+//         h1{
+//           font-size: 20px;
+//         }
+//       }
+//     }
+//   }
+// }
 
 .row{
   .boxes{
@@ -63,6 +61,7 @@
       text-align: center;
 
       .box1-content {
+        font-size: 1.1vw;
         .nounderline{
           font-weight: bold;
           color: white;
@@ -70,6 +69,7 @@
         }
         h1{
           font-weight: 300;
+          font-size: 1.5vw;
         }
       }
     }
@@ -89,14 +89,13 @@
     .box4{
       // overflow: hidden;
       height:100%;
-      padding:100px;
+      padding: 28.45%;
       background-color: #478cca;
     }
     .r2-box2{
       img{
         display: block;
         margin: auto;
-        margin-top: 3%;
         width: 75%;
       }
     }
@@ -113,7 +112,7 @@
   // max-height: 190px;
   // overflow: hidden;
   .rfix{
-    padding-left: 15px;
+    // padding-left: 15px;
   }
   .r2-box1{
   }
@@ -126,15 +125,17 @@
 }
 .boxes3{
   .row3box4{
-    height:92%;
+    height:100%;
     padding: 20px 0 30px 0;
     background-color: #6d6059;
     color: white;
     text-align: center;
     h1{
       font-weight: 300;
+      font-size: 1.5vw;
     }
     .box-content{
+      font-size: 1.1vw;
       .nounderline{
         font-weight: bold;
         color: white;
